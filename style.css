@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background : radial-gradient(circle, rgb(12,45,44) 5%,rgb(8, 42, 41), rgb(0, 0, 0) 99%);
+    padding: 20px;
+}
+.container{
+   /* height: 661px;
+    width: 1366px; */
+    background : radial-gradient(circle, rgb(12,45,44) 5%,rgb(8, 42, 41), rgb(0, 0, 0) 99%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.portfolio{
+    margin-right: 650px;
+    font-size: 20px;
+}
+.name{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    font-size: 120px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#welcome{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#developer{
+    font-size: 20px;
+}
+.aboutsection{
+    display: flex;
+    gap: 100px;
+}
+.content{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+.material{
+    font-size: 25px;
+}
+.about-heading{
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.photo img{
+    width: 168px;
+    height: 300px;
+    border-radius: 10%;
+}
