@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +7,7 @@
 body{
     background : radial-gradient(circle, rgb(12,45,44) 5%,rgb(8, 42, 41), rgb(0, 0, 0) 99%);
     padding: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
    /* height: 661px;
@@ -14,16 +17,26 @@ body{
     display: flex;
     flex-direction: column;
     gap: 35px;
+    overflow: hidden;
 }
 nav{
     display: flex;
-    gap: 30px;
-    font-size: 30px;
+    gap: 25px;
+    font-size: 20px;
     margin-bottom: 50px;
 }
-.portfolio{
-    margin-right: 650px;
+
+button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
+}
+.portfolio{
+    margin-right: 700px;
+    font-size: 15px;
 }
 .name{
     width: 100vw;
@@ -41,12 +54,13 @@ nav{
 #developer{
     font-size: 20px;
 }
-.aboutsection{
+.sections{
     display: flex;
     gap: 100px;
+    margin: 40px 60px;
 }
-.content{
-    margin-left: 60px;
+.about-content{
+    /* margin-left: 60px; */
     display: flex;
     flex-direction: column;
     width: 60vw;
@@ -54,16 +68,94 @@ nav{
 .material{
     font-size: 25px;
 }
-.about-heading{
-    font-size: 65px;
+
+#about-heading{
     margin-bottom: 30px;
+}
+.heading{
+    font-size: 50px;
 }
 .content{
     display: flex;
     flex-direction: column;
 }
+.photo{
+    margin-top: 130px;
+}
 .photo img{
     width: 168px;
     height: 300px;
     border-radius: 10%;
+}
+#skillsection{
+    flex-direction: column;
+    gap: 80px;
+}
+.skillset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: grey;
+    color: black;
+    width: 180px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 35px;
+    padding: 5px;
+    margin-right: 200px;
+    box-shadow: 5px 5px 5px black;
+}
+.skill:hover{
+    background-color: rgb(207, 207, 207);
+    color: rgb(10,43,42);
+    font-size: 38px;
+    box-shadow: 5px 5px 5px grey;
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out;
+}
+#contactsection{
+    flex-direction: column;
+}
+.contacts-wrapper{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.contacts{
+    border: 2px solid white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px grey;
+    text-decoration: none;
+}
+.contacts a i{
+    text-decoration: none !important;
+}
+.fab .far{  
+    background-color: none !important;
+    color: none !important;
+}
+a, i{
+    background-color: none !important;
+    color: none !important;
+    text-decoration: none !important;
+}
+.contacts:hover{
+    outline: 1px solid white;
+    box-shadow: 3px 2px 5px white;
+    transform: scale(1.1);
+    transition: 0.2s all ease-in-out;
+    
 }
