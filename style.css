@@ -6,7 +6,7 @@
 }
 body{
     background : radial-gradient(circle, rgb(12,45,44) 5%,rgb(8, 42, 41), rgb(0, 0, 0) 99%);
-    padding: 20px;
+    padding: 20px 0px 0px 0px;
     font-family: 'Poppins', sans-serif;
 }
 .container{
@@ -34,8 +34,9 @@ button{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
-.portfolio{
+.top-name{
     margin-right: 700px;
+    margin-left: 20px;
     font-size: 15px;
 }
 .name{
@@ -56,7 +57,7 @@ button{
 }
 .sections{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     margin: 40px 60px;
 }
 .about-content{
@@ -74,16 +75,17 @@ button{
 }
 .heading{
     font-size: 50px;
+    color: white;
 }
 .content{
     display: flex;
     flex-direction: column;
 }
 .photo{
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .photo img{
-    width: 168px;
+    width: 300px;
     height: 300px;
     border-radius: 10%;
 }
@@ -158,4 +160,44 @@ a, i{
     transform: scale(1.1);
     transition: 0.2s all ease-in-out;
     
+}
+footer{
+    width: 100vw;
+    height: 50px;
+    color: black;
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+#projectsection{
+    flex-direction: column;
+}
+.project-heading{
+    font-size: 30px;
+    color: white;
+}
+.project{
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50vw;
+}
+.project-button{
+    background-color: black;
+    color: grey;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 20px;
+}
+.project-button:hover{
+    transform: scale(1.1);
 }
